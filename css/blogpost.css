@@ -1,0 +1,48 @@
+.post-img{
+    height:350px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.post-img img{
+width:100%;
+}
+
+.paragraph{
+    word-wrap: break-word;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 18px;
+    color:black;
+}
+
+.paragraph span{
+    font-weight: bolder;
+    color:gray;
+    margin-left: 25px;
+}
+
+.line{
+    height:4px;
+    background-color: black;
+}
+
+.head{
+    margin-left: 330px;
+    font-size:30px ;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family:  "Times New Roman", Times, serif;
+    color:gray;
+
+
+}
+.footer-para{
+color: gray;
+   
+}

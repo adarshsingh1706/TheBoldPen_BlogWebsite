@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation {
+
+    font-family: 'Times New Roman', Times, serif;
+    height: 75px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left span {
+    font-family: var(--font);
+}
+
+.nav-left {
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 75px;
+    font-size: 22px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-left ul li a:hover {
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+
+.content {
+    height: auto;
+    display: flex;
+    display: flex;
+    position: relative;
+    /* background-image: url("/images/books.jpg"); */
+    background-image: url("/images/books1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: -1; /* Push the background behind the content */
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(0, 0, 0); /* Adjust text color */
+    font-size: 18px;
+    
+}
+
+
+.content::after {
+    /* content: "";
+    background-image: url("/images/books.jpg");
+    position: absolute;
+    width: 80%;
+    height: inherit;
+    opacity: 0.35;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+.content-left {
+    font-family: var(--font);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+    padding-left: 20px;
+    z-index: 1;
+    
+   
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.content-right img {
+    height: 270px;
+    border: 2px black;
+    border-radius: 280px;
+    opacity: 0.6;
+
+}
+
+.home-articles {
+
+    background-color: rgb(210, 151, 151,0.5);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article-img img {
+    width: 250px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    text-decoration:none;
+    color:rgb(66, 61, 61);
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(62, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+:root {
+    --main-bg-color: brown;
+    --font: 'Roboto', sans-serif;
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 6px 14px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 13px;
+    transition:all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color:black;
+    background:rgb(142, 127, 127);
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.781);
+    border-radius: 8px;
+    margin: 0 11px;
+}
